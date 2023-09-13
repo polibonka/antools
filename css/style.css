@@ -252,17 +252,19 @@ span {
   backdrop-filter: blur(25px);
 }
 
-.popular_tools_text {
+.popular_tools_textt {
   color: rgba(255, 255, 255, 0.55);
-  text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .popular_tools_textbox {
   display: flex;
+  gap: 30px;
 }
 
 .popular_tools_textprice {
@@ -294,4 +296,14 @@ span {
 .popular_tools_wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.popular_tools_btns {
+  display: flex;
+  gap: 12px;
+}
+
+.search_form {
+  display: flex;
+  justify-content: space-between;
 }
