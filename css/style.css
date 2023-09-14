@@ -102,6 +102,12 @@ li {
 .header_itemm {
   margin: 0;
 }
+
+.header_item:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .search {
   background-image: url(../src/img/Illustration.png);
   background-repeat: no-repeat;
@@ -364,4 +370,136 @@ span {
   gap: 107px;
   justify-content: center;
   padding-bottom: 0;
+}
+
+.newtools_title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.newtools_text {
+  color: rgba(255, 255, 255, 0.55);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.newtools_btn {
+  width: 198px;
+  height: 58px;
+  border-radius: 8px;
+  background: #ff6e30;
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.newtools_descrbox {
+  padding-top: 220px;
+  padding-bottom: 100px;
+}
+
+.newtools_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.newtools_card {
+  display: flex;
+  gap: 30px;
+}
+
+.newtools_textt {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.newtools_textprice {
+  color: rgba(255, 165, 55, 0.55);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.newtools_text {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.newtools_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newtools_btns {
+  display: flex;
+  gap: 12px;
+}
+
+.newtools_btnn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.newtools_btnn:hover svg path {
+  fill: #fd3b41;
+  margin: 0;
+}
+
+.newtools_but {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.newtools_button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 106px;
+  height: 42px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.newtools_item:hover {
+  border-radius: 15px;
+  background: rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur(25px);
+}
+
+.newtools_button:hover {
+  padding: 0;
+
+  border-radius: 8px;
+  background: #ff6e30;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #fdf5ff;
+  border: none;
 }
