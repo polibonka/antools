@@ -484,6 +484,11 @@ span {
   margin: 0;
   padding: 0;
 }
+.newtools_item {
+  width: 310px;
+  height: 284px;
+  padding: 28px 21px 28px 21px;
+}
 
 .newtools_item:hover {
   border-radius: 15px;
@@ -502,4 +507,19 @@ span {
   line-height: normal;
   color: #fdf5ff;
   border: none;
+}
+
+.newtools .container {
+  display: flex;
+}
+
+.newtools_list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 50px;
+}
+
+.newtools_descrbox {
+  max-width: 427px;
 }
