@@ -403,11 +403,6 @@ span {
   line-height: normal;
 }
 
-.newtools_descrbox {
-  padding-top: 220px;
-  padding-bottom: 100px;
-}
-
 .newtools_wrapper {
   display: flex;
   flex-direction: column;
@@ -511,6 +506,7 @@ span {
 
 .newtools .container {
   display: flex;
+  justify-content: space-between;
 }
 
 .newtools_list {
@@ -518,8 +514,29 @@ span {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 50px;
+  width: 684px;
+  padding: 0;
 }
 
 .newtools_descrbox {
-  max-width: 427px;
+  width: 427px;
+}
+
+.me_container {
+  padding-top: 253px;
+}
+
+.me_text {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.21px;
+  display: flex;
+}
+
+.newtools {
+  padding: 220px 0;
 }
