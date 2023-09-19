@@ -560,6 +560,7 @@ span {
 
 .me_arrow {
   align-self: center;
+  padding-right: 47px;
 }
 
 .me_quotes {
@@ -630,4 +631,71 @@ span {
   border: none;
   margin: 8px;
   gap: 20px;
+}
+
+.footer_logotext {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footerlogo-link {
+  display: flex;
+}
+
+.footer_subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_text {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 98px;
+}
+
+.footer_contact-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_link {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.footer_line {
+  width: 1440px;
+  height: 0.5px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.footer_wrapper {
+  padding-top: 70px;
 }
