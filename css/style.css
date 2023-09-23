@@ -615,6 +615,7 @@ span {
   width: 547px;
   height: 64px;
   border-radius: 15px;
+  padding-left: 20px;
 }
 
 .join_us_form-wrapper_btn {
@@ -691,11 +692,27 @@ span {
 }
 
 .footer_line {
-  width: 1440px;
+  width: 100%;
   height: 0.5px;
   background: rgba(255, 255, 255, 0.15);
 }
 
 .footer_wrapper {
   padding-top: 70px;
+}
+
+.me_arrow-left:hover path {
+  stroke: #ff6e30;
+  stroke-opacity: 1;
+  cursor: pointer;
+}
+
+.me_arrow-right {
+  transform: rotate(180deg);
+}
+
+.me_arrow-right:hover path {
+  stroke: #ff6e30;
+  stroke-opacity: 1;
+  cursor: pointer;
 }
