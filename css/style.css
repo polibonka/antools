@@ -522,10 +522,6 @@ span {
   width: 427px;
 }
 
-.me_container {
-  padding-top: 253px;
-}
-
 .me_text {
   color: rgba(255, 255, 255, 0.78);
   font-family: Roboto;
@@ -556,11 +552,13 @@ span {
   display: flex;
   justify-content: center;
   padding-top: 100px;
+  cursor: pointer;
 }
 
 .me_arrow {
   align-self: center;
   padding-right: 47px;
+  cursor: pointer;
 }
 
 .me_quotes {
